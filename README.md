@@ -1,1 +1,13 @@
 # In-Vehicle-Coupon-Recommendation-using-Machine-Learning-Algorithms
+
+  This dataset comprised of variables containing weather/time, social/economic values of an individual such as age, gender, occupation, income, etc., as well as other factors such as their proximity to places such as coffee houses, bars, and restaurants. 
+
+  The purpose of our analysis was to create classification algorithms which can effectively predict whether a driver will accept a coupon or not. Our goal was to find which features play the largest role in determining the target variable, whether the driver accepts the coupon, while also ensuring that the model is interpretable, not too complex, and can be applied in the future to unseen instances. Another thing we wanted to discover was if there was any formation of interesting groups/clusters that may arise in this dataset. 
+  
+  Presenting coupons to a customer can be a very efficient and cheap way of attracting them to a business or service. Coupons are not only less intrusive, and cheaper than other methods of advertising such as commercials or billboards, but they also contain further and more personal incentives for consumers to draw them in. The acceptance of a coupon is likely to increase traffic to a business and is bound to drive sales. 
+  
+  Both random forests and PCA were used as a supervised and unsupervised feature selection techniques, respectively. Using the reduced datasets, models including random forests, logistic regression, decision trees, and the stochastic gradient descent (SGD) classifier were built and compared. Overall, PCA led to much lower accuracy scores and did not lead to interpretable results as compared to the random forests feature selection. 
+  
+  Model, KPrototype and KMedoid were used as an unsupervised algorithm to extract some structure from the data set. We used these algorithms because our data set comprised of only categorical variables. 
+  
+  We concluded that there are a few main factors that businesses should consider when determining if coupons are a worthwhile expenditure to attract customers. We found that certain businesses, specifically Coffee Houses, Bars, Takeaway, and places that cost under $20. These are all places that people may frequently visit often and may not be very costly compared to others. Time was also very important in determining if a driver would accept a coupon, and we found that people would be more accepting of coupons when they are not rushing to be somewhere, whether that be work in the morning or back home late at night. The clustering results were inconclusive as to specific groups of customers being formed. We suspect that there might be some bias in how the data was collected
